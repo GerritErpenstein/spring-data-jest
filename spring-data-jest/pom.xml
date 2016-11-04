@@ -23,6 +23,12 @@
             <artifactId>spring-data-elasticsearch</artifactId>
         </dependency>
 
+        <!-- Elasticsearch -->
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+        </dependency>
+
         <!-- JEST -->
         <dependency>
             <groupId>io.searchbox</groupId>

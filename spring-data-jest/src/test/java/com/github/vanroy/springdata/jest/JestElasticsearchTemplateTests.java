@@ -1227,7 +1227,6 @@ public class JestElasticsearchTemplateTests {
 		assertThat(mapping.get("properties").get("message").get("type"), is("string"));
 		assertThat(mapping.get("properties").get("message").get("index"), is("not_analyzed"));
 		assertThat(mapping.get("properties").get("message").get("store"), is(true));
-		assertThat(mapping.get("properties").get("message").get("analyzer"), is("standard"));
 	}
 
 	@Test
